@@ -78,49 +78,9 @@
 
 ## 📦 Produtos Mais e Menos Vendidos
 
-### Loja 1
-**Top 3**  
-- Micro-ondas: 60 vendas *  
-- TV LED UHD 4K: 60 vendas  
-- Guarda-Roupas: 60 vendas  
-
-**Bottom 3**  
-- Headset: 33 vendas  
-- Celular ABXY: 33 vendas  
-- Panela de Pressão: 35 vendas
-
-### Loja 2
-**Top 3**  
-- Iniciando em Programação: 65 vendas *  
-- Micro-ondas: 62 vendas  
-- Bateria: 61 vendas  
-
-**Bottom 3**  
-- Jogo de Tabuleiro: 32 vendas  
-- Impressora: 34 vendas  
-- Mesa de Jantar: 34 vendas
-
-### Loja 3
-**Top 3**  
-- Kit Banquetas: 57 vendas *  
-- Cama King: 56 vendas  
-- Mesa de Jantar: 56 vendas  
-
-**Bottom 3**  
-- Blocos de Montar: 35 vendas  
-- Micro-ondas: 36 vendas  
-- Mochila: 36 vendas
-
-### Loja 4
-**Top 3**  
-- Cama Box: 62 vendas *  
-- Faqueiro: 59 vendas  
-- Cama King: 56 vendas  
-
-**Bottom 3**  
-- Guitarra: 33 vendas  
-- Guarda-Roupas: 34 vendas  
-- Violão: 37 vendas
+<p align="center">
+  <img src="images/grafico-vendas-produto.png" alt="Gráfico de Vendas"/>
+</p>
 
 ---
 
