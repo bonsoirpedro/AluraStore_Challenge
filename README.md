@@ -1,6 +1,28 @@
-# 📊 Relatório Final de Análise de Dados - Rede de Lojas
+# 🏬 Alura Store - Relatório de Análise de Dados
 
-## 💰 Faturamento Bruto por Loja
+## 🎯 Propósito da Análise
+
+Este projeto tem como objetivo analisar os dados de vendas de uma rede fictícia de lojas — a **Alura Store** — para identificar padrões, desempenho por loja, produtos e categorias mais vendidos, avaliações médias, impacto do frete e outros indicadores que possam embasar uma tomada de decisão estratégica.
+
+---
+
+## 🗂️ Estrutura do Projeto
+
+```
+alura-store-challenge/
+├── images/              # Gráficos e visualizações geradas
+│   └── grafico-vendas-produto.png
+├── notebooks/           # Notebooks utilizados na análise
+│   └── analise-dados.ipynb
+├── README.md            # Este arquivo
+```
+
+
+---
+
+## 📈 Exemplos de Gráficos e Insights
+
+### 💰 Faturamento Bruto por Loja
 
 | Loja   | Faturamento Bruto |
 |--------|--------------------|
@@ -11,39 +33,34 @@
 
 ---
 
-## 🛍️ Top 5 Categorias por Loja
+### 🛍️ Top 5 Categorias por Loja
 
-### Loja 1
-- Móveis: 465 vendas  
-- Eletrônicos: 448 vendas  
-- Brinquedos: 324 vendas  
-- Eletrodomésticos: 312 vendas *  
-- Esporte e Lazer: 284 vendas *
-
-### Loja 2
-- Móveis: 442 vendas  
-- Eletrônicos: 422 vendas  
-- Brinquedos: 313 vendas  
-- Eletrodomésticos: 305 vendas  
-- Esporte e Lazer: 275 vendas
-
-### Loja 3
-- Móveis: 499 vendas *  
-- Eletrônicos: 451 vendas *  
-- Brinquedos: 315 vendas  
-- Eletrodomésticos: 278 vendas  
-- Esporte e Lazer: 277 vendas
-
-### Loja 4
-- Móveis: 480 vendas  
-- Eletrônicos: 451 vendas  
-- Brinquedos: 338 vendas *  
-- Eletrodomésticos: 254 vendas  
-- Esporte e Lazer: 277 vendas
+| Loja   | Categorias Principais | Vendas |
+|--------|------------------------|--------|
+| Loja 1 | Móveis                | 465    |
+|        | Eletrônicos           | 448    |
+|        | Brinquedos            | 324    |
+|        | Eletrodomésticos (*)  | 312    |
+|        | Esporte e Lazer (*)   | 284    |
+| Loja 2 | Móveis                | 442    |
+|        | Eletrônicos           | 422    |
+|        | Brinquedos            | 313    |
+|        | Eletrodomésticos      | 305    |
+|        | Esporte e Lazer       | 275    |
+| Loja 3 | Móveis (*)            | 499    |
+|        | Eletrônicos (*)       | 451    |
+|        | Brinquedos            | 315    |
+|        | Eletrodomésticos      | 278    |
+|        | Esporte e Lazer       | 277    |
+| Loja 4 | Móveis                | 480    |
+|        | Eletrônicos           | 451    |
+|        | Brinquedos (*)        | 338    |
+|        | Eletrodomésticos      | 254    |
+|        | Esporte e Lazer       | 277    |
 
 ---
 
-## 🌟 Avaliação Média por Loja
+### 🌟 Avaliação Média por Loja
 
 | Loja   | Avaliação Média |
 |--------|------------------|
@@ -52,31 +69,26 @@
 | Loja 4 | 4.00             |
 | Loja 1 | 3.98             |
 
-### 🏆 Top Categorias Melhor Avaliadas
+#### 🏆 Top Categorias Melhor Avaliadas
 
-**Loja 1**  
-- Brinquedos: 4.08 *  
-- Instrumentos Musicais: 4.05  
-- Eletrodomésticos: 4.03 *
-
-**Loja 2**  
-- Móveis: 4.09  
-- Eletrodomésticos: 4.07  
-- Utilidades Domésticas: 4.07
-
-**Loja 3**  
-- Brinquedos: 4.2 *  
-- Móveis: 4.1  
-- Utilidades Domésticas: 4.07
-
-**Loja 4**  
-- Esporte e Lazer: 4.05  
-- Livros: 4.04  
-- Utilidades Domésticas: 4.01
+| Loja   | Categoria                 | Avaliação |
+|--------|---------------------------|-----------|
+| Loja 1 | Brinquedos (*)           | 4.08      |
+|        | Instrumentos Musicais    | 4.05      |
+|        | Eletrodomésticos (*)     | 4.03      |
+| Loja 2 | Móveis                   | 4.09      |
+|        | Eletrodomésticos         | 4.07      |
+|        | Utilidades Domésticas    | 4.07      |
+| Loja 3 | Brinquedos (*)           | 4.2       |
+|        | Móveis                   | 4.1       |
+|        | Utilidades Domésticas    | 4.07      |
+| Loja 4 | Esporte e Lazer          | 4.05      |
+|        | Livros                   | 4.04      |
+|        | Utilidades Domésticas    | 4.01      |
 
 ---
 
-## 📦 Produtos Mais e Menos Vendidos
+### 📦 Produtos Mais e Menos Vendidos
 
 <p align="center">
   <img src="images/grafico-vendas-produto.png" alt="Gráfico de Vendas"/>
@@ -84,7 +96,7 @@
 
 ---
 
-## 🚚 Frete Médio por Loja
+### 🚚 Frete Médio por Loja
 
 | Loja   | Frete Médio | Soma dos Fretes |
 |--------|-------------|------------------|
@@ -95,7 +107,7 @@
 
 ---
 
-## 🧾 Faturamento Líquido por Loja
+### 🧾 Faturamento Líquido por Loja
 
 | Loja   | Faturamento Líquido |
 |--------|----------------------|
@@ -118,3 +130,12 @@
 >
 > **Análise final:**  
 > A loja 4 é a maior candidata ao encerramento das atividades. Embora tenha uma média de avaliação razoável, essa métrica mascara sua baixa quantidade de vendas e o fraco desempenho geral. Mesmo localizada estrategicamente (frete baixo), a loja não consegue converter isso em lucro. Seu desempenho ruim em eletrodomésticos e eletrônicos compromete o faturamento. A diversificação excessiva em categorias menos lucrativas também prejudica os resultados. As vendas totais entre as lojas são praticamente iguais (2.359), com a loja 4 tendo uma a menos — irrelevante estatisticamente, mas reforçando sua baixa conversão.
+
+---
+
+## 🛠️ Como Executar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/alura-store-challenge.git
+   cd alura-store-challenge
